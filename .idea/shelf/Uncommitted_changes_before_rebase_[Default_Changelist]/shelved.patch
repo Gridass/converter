@@ -1,0 +1,111 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"466bd1ce-4658-4b9c-ac89-6769909714a2\" name=\"Default Changelist\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\" doNotAsk=\"true\" synchronizationState=\"SYNCHRONIZE\">\n    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>\n    <execution />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"composer.json\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"PHP 7.4\">\n    <include_path>\n      <path value=\"$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles\" />\n      <path value=\"$PROJECT_DIR$/vendor/scrivo/highlight.php\" />\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/lexer\" />\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/instantiator\" />\n      <path value=\"$PROJECT_DIR$/vendor/doctrine/inflector\" />\n      <path value=\"$PROJECT_DIR$/vendor/dragonmantank/cron-expression\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpspec/prophecy\" />\n      <path value=\"$PROJECT_DIR$/vendor/fideloper/proxy\" />\n      <path value=\"$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir\" />\n      <path value=\"$PROJECT_DIR$/vendor/egulias/email-validator\" />\n      <path value=\"$PROJECT_DIR$/vendor/fruitcake/laravel-cors\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpdocumentor/type-resolver\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpdocumentor/reflection-common\" />\n      <path value=\"$PROJECT_DIR$/vendor/mockery/mockery\" />\n      <path value=\"$PROJECT_DIR$/vendor/paragonie/random_compat\" />\n      <path value=\"$PROJECT_DIR$/vendor/composer\" />\n      <path value=\"$PROJECT_DIR$/vendor/nunomaduro/collision\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpoption/phpoption\" />\n      <path value=\"$PROJECT_DIR$/vendor/filp/whoops\" />\n      <path value=\"$PROJECT_DIR$/vendor/myclabs/deep-copy\" />\n      <path value=\"$PROJECT_DIR$/vendor/ralouphie/getallheaders\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/resource-operations\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/diff\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/global-state\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/object-enumerator\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/exporter\" />\n      <path value=\"$PROJECT_DIR$/vendor/psy/psysh\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/object-reflector\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/environment\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/comparator\" />\n      <path value=\"$PROJECT_DIR$/vendor/nesbot/carbon\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/recursion-context\" />\n      <path value=\"$PROJECT_DIR$/vendor/league/mime-type-detection\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup\" />\n      <path value=\"$PROJECT_DIR$/vendor/league/flysystem\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/version\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/phpunit\" />\n      <path value=\"$PROJECT_DIR$/vendor/sebastian/type\" />\n      <path value=\"$PROJECT_DIR$/vendor/nikic/php-parser\" />\n      <path value=\"$PROJECT_DIR$/vendor/asm89/stack-cors\" />\n      <path value=\"$PROJECT_DIR$/vendor/league/commonmark\" />\n      <path value=\"$PROJECT_DIR$/vendor/ramsey/uuid\" />\n      <path value=\"$PROJECT_DIR$/vendor/ramsey/collection\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/var-dumper\" />\n      <path value=\"$PROJECT_DIR$/vendor/psr/simple-cache\" />\n      <path value=\"$PROJECT_DIR$/vendor/psr/http-message\" />\n      <path value=\"$PROJECT_DIR$/vendor/psr/container\" />\n      <path value=\"$PROJECT_DIR$/vendor/psr/event-dispatcher\" />\n      <path value=\"$PROJECT_DIR$/vendor/hamcrest/hamcrest-php\" />\n      <path value=\"$PROJECT_DIR$/vendor/swiftmailer/swiftmailer\" />\n      <path value=\"$PROJECT_DIR$/vendor/psr/log\" />\n      <path value=\"$PROJECT_DIR$/vendor/brick/math\" />\n      <path value=\"$PROJECT_DIR$/vendor/laravel/framework\" />\n      <path value=\"$PROJECT_DIR$/vendor/laravel/tinker\" />\n      <path value=\"$PROJECT_DIR$/vendor/phar-io/version\" />\n      <path value=\"$PROJECT_DIR$/vendor/phar-io/manifest\" />\n      <path value=\"$PROJECT_DIR$/vendor/opis/closure\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-token-stream\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-text-template\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-timer\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-file-iterator\" />\n      <path value=\"$PROJECT_DIR$/vendor/phpunit/php-code-coverage\" />\n      <path value=\"$PROJECT_DIR$/vendor/facade/ignition\" />\n      <path value=\"$PROJECT_DIR$/vendor/voku/portable-ascii\" />\n      <path value=\"$PROJECT_DIR$/vendor/facade/ignition-contracts\" />\n      <path value=\"$PROJECT_DIR$/vendor/facade/flare-client-php\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-php80\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-iconv\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/mime\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/deprecation-contracts\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/event-dispatcher\" />\n      <path value=\"$PROJECT_DIR$/vendor/webmozart/assert\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-mbstring\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/translation\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/service-contracts\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-ctype\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/routing\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/finder\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/string\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/error-handler\" />\n      <path value=\"$PROJECT_DIR$/vendor/fzaninotto/faker\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/process\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/http-kernel\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-php73\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-php72\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/translation-contracts\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-php70\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/console\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/css-selector\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/http-foundation\" />\n      <path value=\"$PROJECT_DIR$/vendor/monolog/monolog\" />\n      <path value=\"$PROJECT_DIR$/vendor/guzzlehttp/promises\" />\n      <path value=\"$PROJECT_DIR$/vendor/guzzlehttp/psr7\" />\n      <path value=\"$PROJECT_DIR$/vendor/guzzlehttp/guzzle\" />\n      <path value=\"$PROJECT_DIR$/vendor/vlucas/phpdotenv\" />\n      <path value=\"$PROJECT_DIR$/vendor/theseer/tokenizer\" />\n      <path value=\"$PROJECT_DIR$/vendor/laravel/ui\" />\n      <path value=\"$PROJECT_DIR$/vendor/symfony/debug\" />\n      <path value=\"$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar\" />\n      <path value=\"$PROJECT_DIR$/vendor/maximebf/debugbar\" />\n    </include_path>\n  </component>\n  <component name=\"ProjectId\" id=\"1gHliA28skiFNDSFPInDoLK7HQo\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"web-ide.project.structure\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/resources/views/home\" />\n      <recent name=\"$PROJECT_DIR$/resources/views/style\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"phpunit.xml\" type=\"PHPUnitRunConfigurationType\" factoryName=\"PHPUnit\">\n      <TestRunner scope=\"XML\" />\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"466bd1ce-4658-4b9c-ac89-6769909714a2\" name=\"Default Changelist\" comment=\"\" />\n      <created>1597772912503</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1597772912503</updated>\n      <workItem from=\"1597772913600\" duration=\"3973000\" />\n      <workItem from=\"1597779584328\" duration=\"21000\" />\n      <workItem from=\"1597779609246\" duration=\"5895000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"266\" y=\"22\" width=\"824\" height=\"678\" key=\"#CLI_Interpreters\" timestamp=\"1597779755275\">\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\n    </state>\n    <state x=\"266\" y=\"22\" width=\"824\" height=\"678\" key=\"#CLI_Interpreters/0.0.1366.728@0.0.1366.728\" timestamp=\"1597779755275\" />\n    <state x=\"466\" y=\"121\" width=\"424\" height=\"478\" key=\"FileChooserDialogImpl\" timestamp=\"1597779604290\">\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\n    </state>\n    <state x=\"466\" y=\"121\" width=\"424\" height=\"478\" key=\"FileChooserDialogImpl/0.0.1366.728@0.0.1366.728\" timestamp=\"1597779604290\" />\n    <state x=\"187\" y=\"0\" key=\"SettingsEditor\" timestamp=\"1597779791099\">\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\n    </state>\n    <state x=\"187\" y=\"0\" key=\"SettingsEditor/0.0.1366.728@0.0.1366.728\" timestamp=\"1597779791099\" />\n    <state x=\"408\" y=\"278\" width=\"540\" height=\"166\" key=\"vcs.readOnlyHandler.ReadOnlyStatusDialog\" timestamp=\"1597774392531\">\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\n    </state>\n    <state x=\"408\" y=\"278\" width=\"540\" height=\"166\" key=\"vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728\" timestamp=\"1597774392531\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision dbc73bbfe8252d5b6b6dab358e407702cbc76d90)
++++ .idea/workspace.xml	(date 1597787541051)
+@@ -1,7 +1,24 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </select>
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="466bd1ce-4658-4b9c-ac89-6769909714a2" name="Default Changelist" comment="" />
++    <list default="true" id="466bd1ce-4658-4b9c-ac89-6769909714a2" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -17,6 +34,14 @@
+         <option value="composer.json" />
+       </list>
+     </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+     <include_path>
+@@ -128,6 +153,7 @@
+     </include_path>
+   </component>
+   <component name="ProjectId" id="1gHliA28skiFNDSFPInDoLK7HQo" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -167,13 +193,36 @@
+       <updated>1597772912503</updated>
+       <workItem from="1597772913600" duration="3973000" />
+       <workItem from="1597779584328" duration="21000" />
+-      <workItem from="1597779609246" duration="5895000" />
++      <workItem from="1597779609246" duration="7323000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="master" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+   <component name="WindowStateProjectService">
+     <state x="266" y="22" width="824" height="678" key="#CLI_Interpreters" timestamp="1597779755275">
+       <screen x="0" y="0" width="1366" height="728" />
+@@ -187,6 +236,14 @@
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597779791099" />
++    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597787304109">
++      <screen x="0" y="0" width="1366" height="728" />
++    </state>
++    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597787304109" />
++    <state x="491" y="280" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597787541036">
++      <screen x="0" y="0" width="1366" height="728" />
++    </state>
++    <state x="491" y="280" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597787541036" />
+     <state x="408" y="278" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597774392531">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>

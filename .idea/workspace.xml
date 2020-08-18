@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="466bd1ce-4658-4b9c-ac89-6769909714a2" name="Default Changelist" comment="" />
+    <list default="true" id="466bd1ce-4658-4b9c-ac89-6769909714a2" name="Default Changelist" comment="0.1">
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RoleMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/PermissionServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/RolesServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Traits/HasRolesAndPermissions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_220120_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_220135_create_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_220647_create_users_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_220733_create_users_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_221038_create_roles_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/PermissionSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/RoleSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +52,14 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -128,11 +171,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gHliA28skiFNDSFPInDoLK7HQo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -167,26 +214,94 @@
       <updated>1597772912503</updated>
       <workItem from="1597772913600" duration="3973000" />
       <workItem from="1597779584328" duration="21000" />
-      <workItem from="1597779609246" duration="5895000" />
+      <workItem from="1597779609246" duration="14720000" />
     </task>
+    <task id="LOCAL-00001" summary="0.1">
+      <created>1597787834364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597787834364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="22" width="824" height="678" key="#CLI_Interpreters" timestamp="1597779755275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="266" y="22" width="824" height="678" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1597779755275" />
+    <state x="127" y="54" width="1092" height="606" key="DiffContextDialog" timestamp="1597787848136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="127" y="54" width="1092" height="606" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1597787848136" />
     <state x="466" y="121" width="424" height="478" key="FileChooserDialogImpl" timestamp="1597779604290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="121" width="424" height="478" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597779604290" />
+    <state x="127" y="54" width="1092" height="606" key="MergeDialog" timestamp="1597787574553">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="127" y="54" width="1092" height="606" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1597787574553" />
+    <state x="320" y="127" width="715" height="465" key="MultipleFileMergeDialog" timestamp="1597787586928">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="320" y="127" width="715" height="465" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1597787586928" />
+    <state x="491" y="92" width="373" height="536" key="NewPhpClassDialog" timestamp="1597789286212">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="92" width="373" height="536" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1597789286212" />
+    <state x="501" y="289" width="354" height="141" key="NewPhpFileDialog" timestamp="1597789300789">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="501" y="289" width="354" height="141" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1597789300789" />
+    <state x="521" y="69" width="313" height="582" key="RollbackChangesDialog" timestamp="1597787885345">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="521" y="69" width="313" height="582" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597787885345" />
     <state x="187" y="0" key="SettingsEditor" timestamp="1597779791099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597779791099" />
+    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597787872239">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597787872239" />
+    <state x="491" y="280" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597788008298">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="280" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597788008298" />
     <state x="408" y="278" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597774392531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
