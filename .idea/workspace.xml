@@ -17,25 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="466bd1ce-4658-4b9c-ac89-6769909714a2" name="Default Changelist" comment="0.1">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RoleMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Permission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/PermissionServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RolesServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/HasRolesAndPermissions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_220120_create_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_220135_create_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_220647_create_users_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_220733_create_users_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_18_221038_create_roles_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/PermissionSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/RoleSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,10 +244,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="266" y="22" width="824" height="678" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1597779755275" />
-    <state x="127" y="54" width="1092" height="606" key="DiffContextDialog" timestamp="1597787848136">
+    <state x="127" y="54" width="1092" height="606" key="DiffContextDialog" timestamp="1597849699252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="127" y="54" width="1092" height="606" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1597787848136" />
+    <state x="127" y="54" width="1092" height="606" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1597849699252" />
     <state x="466" y="121" width="424" height="478" key="FileChooserDialogImpl" timestamp="1597779604290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -294,10 +276,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597779791099" />
-    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597787872239">
+    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597849700782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597787872239" />
+    <state x="278" y="99" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597849700782" />
     <state x="491" y="280" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597788008298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
