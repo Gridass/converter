@@ -14,15 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home.welcome');
+    return view('welcome');
 });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home'); //разобраться с директом и админкой
+Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['middleware' => 'role:admin'], function() {
+    Route::get('/admin', 'AdminController@index')->name('admin');
 
-    Route::get('/home.welcome', function() {
-        return 'Добро пожаловать, Admin';
-    });
 });
