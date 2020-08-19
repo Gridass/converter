@@ -1,2 +1,9 @@
 @include('layouts.app')
-adminka
+
+<div class="container">
+    @foreach ($users as $user)
+{{ $user->name }}<br>
+    @endforeach
+</div>
+
+{{ $users->links() }}
