@@ -58,7 +58,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## Login default
 
+
+php artisan migrate
+php artisan db:seed
+
 Вход в конвертер /home после регистрации или авторизации
+
+отключение дебагбара в .env
+APP_DEBUG=false
+и  
+php artisan cache clear
 
 admin:
 adminpanel: /admin
