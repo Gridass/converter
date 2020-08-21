@@ -89,7 +89,10 @@
     <div class="convert_result">= 00,000</div>
 
 </div>
+<div>
+    <a class="button" href="{{route('payment')}}">Payment</a>
 
+</div>
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
