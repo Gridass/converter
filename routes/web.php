@@ -20,7 +20,13 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//Payment
+Route::get('/payment', ['as' => 'payment', 'uses' => 'PaymentController@payWithpaypal']);
+Route::get('/payment/status',['as' => 'status', 'uses' => 'PaymentController@getPaymentStatus']);
+
 Route::group(['middleware' => 'role:admin'], function() {
     Route::get('/admin', 'AdminController@index')->name('admin');
 
+
 });
+

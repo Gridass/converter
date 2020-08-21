@@ -167,6 +167,7 @@ return [
          * Package Service Providers...
          */
         Barryvdh\Debugbar\ServiceProvider::class,
+        Srmklive\PayPal\Providers\PayPalServiceProvider::class,
 
 
         /*

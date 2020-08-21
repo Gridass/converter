@@ -56,29 +56,37 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## Login default
+## Login default<br>
 
 
 php artisan migrate
 php artisan db:seed
 
 Вход в конвертер /home после регистрации или авторизации
-
-отключение дебагбара в .env
+отключение дебагбара в .env<br>
 APP_DEBUG=false
 и  
-php artisan cache clear
-
-admin:
+php artisan cache clear<br>
 adminpanel: /admin
-
-L:admin@admin.com
-P:secret
-
-user:
-L:jhon@deo.com
+L:admin@admin.com<br>
+P:secret<br>
+user:<br>
+L:jhon@deo.com<br>
 P:secret
  
+ 
+## PayPal<br>
+
+Business Email ID:<br>
+sb-8c6w72998966@business.example.com<br>
+Password:<br>
+Vxo#p5Ay<br>
+
+Personal Email ID:<br>
+sb-143bjy2990305@personal.example.com<br>
+Password:<br>
+uInO%3qB<br>
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
